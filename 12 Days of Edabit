@@ -1,0 +1,43 @@
+1. Given two numbers, return true if the sum of both numvers is less than 100. Otherwise return false.
+Answer:
+const lessThan100 = (num1 + num2) => (num1 + num2) < 100
+
+2.Create a function that returns the number of arguments it was called with.
+Answer:
+function countArg = (...arg) => arg.length;
+
+3. Create a function that searches for the index of a given item in an array. If the item is present, it should return the index, otherwise, it should return -1.
+Answer:
+const search = (array, var) => array.indexOf(var); 
+
+4.Create a function that returns the square root of a given number.
+function squared(a) {
+    return a*a;
+}
+-- OR --
+return Math.pow(b,2); (new thing I found)
+
+-- OR --
+function squared(num) {
+    let a = num;
+    return Math.sqrt(a);
+}
+
+5. Create a function that finds an array's first index.
+Answer:
+const getFirstValue = (array) => array[0];
+
+6. Create a function  that takes a number as its only argument and returns true if it's less than or equal to zero, otherwise return false.
+Answer:
+const lessthan = num => num <= 0;
+
+7. Create a function that takes 2 numbers as arguments and returns it sum.
+Answer:
+const sumNums = (num1, num2) => (num1 + num2);
+
+8. Write a function that reverses an array
+Answer:
+const reverse = array => array.reverse();
+
+9. Create a function
+
